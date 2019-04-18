@@ -1,4 +1,4 @@
-#include "tree.hpp"
+#include "bstree.hpp"
 
 /*
   Node functions
