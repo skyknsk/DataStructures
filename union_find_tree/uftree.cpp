@@ -23,7 +23,7 @@ class UFTree {
       par.clear();
       rank.clear();
       par.shrink_to_fit();
-      par.shrink_to_fit();
+      rank.shrink_to_fit();
     }
 
     void Solve(const TYPE q, const std::vector<TYPE> &p, const std::vector<TYPE> &x, const std::vector<TYPE> &y);
