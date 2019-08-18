@@ -104,7 +104,6 @@ class DoublyLinkedList {
       for(size_t i = 0; i < idx; ++i) {
         ptr = ptr->next;
       }
-      current_ = ptr;
       return *ptr;
     };
     const Node & operator [] (const size_t idx) const {
@@ -113,7 +112,6 @@ class DoublyLinkedList {
       for(size_t i = 0; i < idx; ++i) {
         ptr = ptr->next;
       }
-      current_ = ptr;
       return *ptr;
     };
     Node* front();

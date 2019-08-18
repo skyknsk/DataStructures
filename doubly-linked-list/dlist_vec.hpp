@@ -38,7 +38,10 @@ class DListVec {
       assert(idx < size_);
       return dlist_vec_[idx];
     }
-
+    const DList & operator [] (const size_t idx) const {
+      assert(idx < size_);
+      return dlist_vec_[idx];
+    }
     // memory operator
     bool empty() const;
     size_t size() const;
