@@ -8,12 +8,12 @@ namespace skyknsk {
 
 struct Seq {
   uint32_t symbol;
-  DoublyLikedList<Seq>::Node* next;
-  DoublyLikedList<Seq>::Node* prev;
+  DoublyLinkedList<Seq>::Node* next;
+  DoublyLinkedList<Seq>::Node* prev;
 };
 
-using DList = DoublyLikedList<Seq>;
-using DNode = DoublyLikedList<Seq>::Node;
+using DList = DoublyLinkedList<Seq>;
+using DNode = DoublyLinkedList<Seq>::Node;
 
 template <class Value_Type>
 class DListVec {
